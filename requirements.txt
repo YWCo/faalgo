@@ -1,4 +1,4 @@
-financetoolkit==1.2.0
+financetoolkit==1.2.6
 streamlit
 fundamentalanalysis==0.3.0
 matplotlib.pyplot
