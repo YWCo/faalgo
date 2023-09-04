@@ -1,4 +1,4 @@
-financetoolkit==1.2.2
+financetoolkit
 fundamentalanalysis
 matplotlib
 datetime
