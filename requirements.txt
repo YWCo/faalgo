@@ -1,7 +1,6 @@
 financetoolkit==1.2.2
 fundamentalanalysis
 matplotlib
-plotly.express
 datetime
 plotly.express
 pandas
