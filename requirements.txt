@@ -4,4 +4,7 @@ matplotlib
 datetime
 plotly.express
 pandas
+numpy
+requests
+python-dateutil
 
