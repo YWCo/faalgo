@@ -38,6 +38,7 @@ with col1:
     #st.write(instru[0])
 
     date=str(st.date_input("Enter start date for analysis:",datetime.date(2020, 1, 1)))
+    st.help(Toolkit.__init__)
     comps=Toolkit(instru, api_key, start_date=date)
     
 
