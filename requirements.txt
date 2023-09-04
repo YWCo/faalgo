@@ -1,6 +1,6 @@
 streamlit
 financetoolkit<1.3.2
-fundamentalanalysis
+fundamentalanalysis==0.2.14
 matplotlib
 datetime
 plotly.express
