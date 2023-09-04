@@ -1,5 +1,4 @@
 financetoolkit
-Toolkit
 fundamentalanalysis
 matplotlib
 datetime
