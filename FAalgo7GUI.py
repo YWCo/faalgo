@@ -36,8 +36,8 @@ with col1:
     instru.append(ticker_one)
     #st.write(instru[0])
 
-    date=str(st.date_input("Enter start date for analysis:",datetime.date(2020, 1, 1)))
-    companies=Toolkit(instru, api_key, start_date=date)
+    date1=str(st.date_input("Enter start date for analysis:",datetime.date(2020, 1, 1)))
+    comp1=Toolkit(instru, api_key, start_date=date1)
     
 
     #companies=Toolkit(["AAPL", "MSFT", "GOOGL", "AMZN"], api_key, start_date="2018-01-01")
@@ -54,9 +54,9 @@ with col12:
 with col22:
     st.subheader("Chart")
     st.checkbox("Add benchmarks to the graph:")
-    #close_prices=companies.get_historical_data()[["Adj Close"]]
-    date_fx_list=companies.get_historical_data().index.strftime('%Y-%m-%d').tolist()
-    fig=px.line(companies.get_historical_data(),x=date_fx_list,y="Adj Close")
+    #close_prices=comp1.get_historical_data()[["Adj Close"]]
+    date_fx_list=comp1.get_historical_data().index.strftime('%Y-%m-%d').tolist()
+    fig=px.line(comp1.get_historical_data(),x=date_fx_list,y="Adj Close")
     #st.write(type(companies.get_historical_data()["Adj Close"]))
     fig.update_xaxes(showgrid=False, zeroline=False)
     fig.update_yaxes(showgrid=False, zeroline=False)
