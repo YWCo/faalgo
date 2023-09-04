@@ -1,3 +1,6 @@
-financetoolkit
+financetoolkit==1.2.0
 streamlit
-
+fundamentalanalysis==0.3.0
+matplotlib.pyplot
+plotly.express
+datetime
