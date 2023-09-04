@@ -2,6 +2,6 @@ streamlit
 fundamentalanalysis==0.2.14
 pandas
 matplotlib
-financetoolkit==1.2.1
+financetoolkit=1.2.1
 plotly.express 
 datetime
