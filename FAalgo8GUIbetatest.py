@@ -39,7 +39,7 @@ with col1:
     #st.write(instru[0])
 
     date=str(st.date_input("Enter start date for analysis:",datetime.date(2020, 1, 1)))
-    comps=ft.Toolkit(instru, api_key, start_date=date)
+    comps=ft.Toolkit(instru, api_key, start_date='2017-12-31')
     
 
     #companies=Toolkit(["AAPL", "MSFT", "GOOGL", "AMZN"], api_key, start_date="2018-01-01")
