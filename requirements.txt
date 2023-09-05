@@ -1,5 +1,5 @@
 streamlit
-financetoolkit<1.0.3
+financetoolkit
 fundamentalanalysis<0.3.0
 matplotlib
 datetime
