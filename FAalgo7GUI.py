@@ -54,7 +54,7 @@ with col12:
 #chart
 with col22:
     st.subheader("Chart")
-    st.checkbox("Add benchmarks to the graph:")
+    #st.checkbox("Add benchmarks to the graph:")
     #close_prices=companies.get_historical_data()[["Adj Close"]]
     date_fx_list=comps.get_historical_data().index.strftime('%Y-%m-%d').tolist()
     fig=px.line(comps.get_historical_data(),x=date_fx_list,y="Adj Close")
