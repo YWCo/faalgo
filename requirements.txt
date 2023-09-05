@@ -1,4 +1,5 @@
 streamlit
+python==3.11.4
 fundamentalanalysis<0.3.0
 pandas
 numpy
